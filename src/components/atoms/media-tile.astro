@@ -19,7 +19,8 @@ const MediaTile = 'a';
   <Image
     class:list={['rounded-lg', 'shadow-md', 'aspect-square', 'object-cover']}
     src={value.image}
-    width={116}
+    fit={'cover'}
+    quality={100}
     aspectRatio={1 / 1}
     alt={value.title}
     format="webp"
